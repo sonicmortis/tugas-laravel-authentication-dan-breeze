@@ -1,4 +1,4 @@
-### 1. Prasyarat (Prerequisites)
+[### 1. Prasyarat (Prerequisites)
 Pastikan perangkat sudah terinstal:
 - PHP >= 8.2
 - Composer
@@ -61,4 +61,4 @@ Aplikasi kini telah aktif dan dapat diakses sepenuhnya melalui browser pada alam
 1. Masuk ke phpMyAdmin, buka database auth_demo_db, lalu buka tabel users.
 2. Klik tombol Edit pada akun pengguna yang sudah didaftarkan tadi, ubah nilai pada kolom role dari yang semula user menjadi admin, kemudian klik Go / Kirim.
 3. Kembali ke browser dan akses URL khusus admin di: http://localhost:8000/admin
-4. Sistem akan menampilkan halaman Admin Dashboard berisi tabel daftar seluruh user secara dinamis. Jika mencoba mengakses URL tersebut menggunakan akun dengan role user, gerbang middleware otomatis memblokir request dan melempar tampilan error 403 | Akses Ditolak.
+4. Sistem akan menampilkan halaman Admin Dashboard berisi tabel daftar seluruh user secara dinamis. Jika mencoba mengakses URL tersebut menggunakan akun dengan role user, gerbang middleware otomatis memblokir request dan melempar tampilan error 403 | Akses Ditolak.]
